@@ -1,3 +1,4 @@
-pub fn api() {
- 
+#[get("/")]
+pub fn hello() -> &'static str {
+    ""
 }

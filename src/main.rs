@@ -1,7 +1,6 @@
-use cmd::api;
-
+#[macro_use] extern crate rocket;
 mod cmd;
-
-fn main() {
-   api::api();
+#[launch]
+fn rocket() -> _ {
+    rocket::build().mount("/", routes![cmd::api::hello])
 }
