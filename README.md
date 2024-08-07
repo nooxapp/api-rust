@@ -1,6 +1,6 @@
 <img src="assets/banner_rust.png" />
 
-# Installation
+## Installation
 ```bash
 git clone https://github.com/nooxapp/api-rust.git
 cd api-rust
