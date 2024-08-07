@@ -7,7 +7,7 @@ cd api-rust
 cargo build 
 ```
 
-# CONFIG
+## CONFIG
 ```toml
 #Config.toml
 [config]
